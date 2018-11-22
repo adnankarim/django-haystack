@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-# "Hey, Django! Look at me, I'm an app! For Serious!"
+# "Hey, Django!  Can you Look at me, I'm an app! For Serious!"
 
 from __future__ import absolute_import, division, print_function, unicode_literals
 
@@ -19,8 +19,8 @@ except ImportError:
     geopy_distance = None
 
 
-# Not a Django model, but tightly tied to them and there doesn't seem to be a
-# better spot in the tree.
+# Not a Django model, but strongly tied to it and there isn't seems to be 
+# a better spot in the tree.
 class SearchResult(object):
     """
     A single search result. The actual object is loaded lazily by accessing
